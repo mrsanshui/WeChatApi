@@ -24,7 +24,7 @@
 > 指定版本微信安装包：https://pan.baidu.com/s/1dxBuvDgAeI0mFjGsY6NVNA
 > 提取码：sszs
 
-- 文档地址：https://www.showdoc.com.cn/2228290215170955/10007758232645903
+- 文档地址：https://www.showdoc.com.cn/2228290215170955
 
 1. 运行《注入工具(图形界面版).exe》点击启动并注入
 2. 监听消息：开启一个HTTP服务，并且运行在 `9000` 端口上，请求路径为 `/msg`，请求方法为 `POST`
