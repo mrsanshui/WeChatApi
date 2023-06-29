@@ -47,6 +47,7 @@
 ### 疑问解答、学习交流
 
 - 交流QQ群：54995858
+- tg讨论组：https://t.me/+yb0O_hNMqIVlODI1
 
 
 
