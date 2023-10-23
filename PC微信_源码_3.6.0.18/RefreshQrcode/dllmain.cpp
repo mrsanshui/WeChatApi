@@ -30,8 +30,8 @@ BOOL APIENTRY DllMain(HMODULE hModule,
 void Hook()
 {
 	DWORD baseAddr = (DWORD)GetModuleHandle(L"WeChatWin.dll");
-	DWORD qrCodeAddr1 = baseAddr + 0x31E4F8;
-	DWORD qrCodeAddr2 = baseAddr + 0x31E4FF;
+	DWORD qrCodeAddr1 = baseAddr + 0x317D00;
+	DWORD qrCodeAddr2 = baseAddr + 0x4B4050;
 
 	__asm
 	{
