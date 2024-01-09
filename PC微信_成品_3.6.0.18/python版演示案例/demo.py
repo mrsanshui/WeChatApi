@@ -66,3 +66,7 @@ if __name__ == '__main__':
 
     # ...其他操作
 
+    # 阻塞防止程序退出...
+    while True:
+        time.sleep(1)
+
