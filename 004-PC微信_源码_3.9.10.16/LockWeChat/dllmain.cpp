@@ -24,9 +24,9 @@ BOOL APIENTRY DllMain( HMODULE hModule,
 
 void LockWeChat()
 {
-    DWORD64 baseAddr = (DWORD64)LoadLibraryA("WeChatWin.dll");
-	DWORD64 callAddr1 = baseAddr + 0x13322B0;
-	DWORD64 callAddr2 = baseAddr + 0x12FC5A0;
+	DWORD baseAddr = (DWORD)LoadLibraryA("WeChatWin.dll");
+	DWORD callAddr1 = baseAddr + 0x13322B0;
+	DWORD callAddr2 = baseAddr + 0x12FC5A0;
     __asm
     {
         call callAddr1;
